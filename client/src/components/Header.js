@@ -17,11 +17,11 @@ export default function Header(){
             <Flex>
                 <div>
                     <h1>
-                        Travis Sauer's Portfolio Website
+                        Travis Sauer's Portfolio
                     </h1>
                     <p>
-                        I'm currently a student at the University of Texas at San Antonio in the Computer Science department where I'm pursuing a Bacholor's Degree. I'm extremely passionate about software development and I believe that expanding my
-                        domain knowledge and technology kit is very important.
+                        I'm currently a student at the University of Texas at San Antonio in the Computer Science department, where I'm pursuing a Bacholor's Degree. I'm extremely passionate about software development and I believe in the continued expansion of my
+                        domain knowledge and technology kit.
                     </p>
                     <Button bg='#ff0099' color='#fff'>
                         Check Out My Projects Here 
