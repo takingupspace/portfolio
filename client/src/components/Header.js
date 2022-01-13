@@ -23,11 +23,11 @@ export default function Header(){
                         I'm currently a student at the University of Texas at San Antonio in the Computer Science department, where I'm pursuing a Bacholor's Degree. I'm extremely passionate about software development and I believe in the continued expansion of my
                         domain knowledge and technology kit.
                     </p>
-                    <Button bg='#ff0099' color='#fff'>
+                    <Button>
                         Check Out My Projects Here 
                     </Button>
                 </div>
-                <Image src='./images/profile.svg' alt='NO PROFILE PIC'/>
+                <Image src='./images/profile.jpg' alt='NO PROFILE PIC'/>
             </Flex>
         </AboutContainer>
 

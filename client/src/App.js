@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 
 const theme = {
   colors: {
-    header: '#ebfbff',
-    body: '#fff',
-    footer : '#003333',
+    header: '#778899',
+    body: '#B0C4DE',
+    footer : '#778899',
   },
   mobile: '768px',
 }
