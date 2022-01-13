@@ -10,10 +10,10 @@ export const StyledHeader = styled.header`
     padding: 0 40 px;
 
     h1{
-        color : red;
+        color : #333;
     }
 
     &:hover{
-        background-color : black;
+        background-color : ${({theme}) => theme.colors.body};
     }
 `
