@@ -1,15 +1,34 @@
-import './App.css';
-import Welcome from './components/About.js';
-import WelcomeButton from './components/WelcomeButton.js';
+import { AboutContainer } from './components/styles/About.styled';
+import Header from './components/Header';
+import { ThemeProvider } from 'styled-components';
+import GlobalStyles from './components/styles/Global.js';
+import content from './content.js'
+import Card from './components/Card';
+import Footer from './components/Footer';
 
+const theme = {
+  colors: {
+    header: '#ebfbff',
+    body: '#fff',
+    footer : '#003333',
+  },
+  mobile: '768px',
+}
 function App() {
   return (
-    <div className="App">
-      <Welcome name="Travis"/>
-      <div>
-      <WelcomeButton kind="primary" onClick={() => alert("clicked!")} />
-      </div>
-    </div>
+
+    <ThemeProvider theme = {theme}>
+    <>
+    <GlobalStyles/>
+    <Header />
+    <AboutContainer>
+      {content.map((item, index) => (
+        <Card key={index} item={item}/>
+      ))}
+    </AboutContainer>
+    <Footer />
+    </>
+    </ThemeProvider>
   );
 }
 
