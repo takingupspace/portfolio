@@ -8,20 +8,14 @@ const content = [
     {
         id: 2,
         title: 'My Projects',
-        body: "[FILLER TEXT]",
+        body: "Here are some of the web projects that I've created.",
         image : 'birdsuphotels.png',
     },
     {
     id: 3,
-        title: 'My Hobbies',
-        body: "[FILLER TEXT]",
-        image : 'NO IMAGE ATM',
-    },
-    {
-    id: 4,
-        title: 'Contact Me',
-        body: "[FILLER TEXT]",
-        image : 'NO IMAGE ATM',
+    title: 'Contact Me',
+    body: "[FILLER TEXT]",
+    image : 'NO IMAGE ATM',
     }
 ]
 
