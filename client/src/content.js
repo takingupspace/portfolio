@@ -9,7 +9,7 @@ const content = [
         id: 2,
         title: 'My Projects',
         body: "[FILLER TEXT]",
-        image : 'NO IMAGE ATM',
+        image : 'birdsuphotels.png',
     },
     {
     id: 3,

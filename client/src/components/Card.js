@@ -3,7 +3,7 @@ export default function Card({item: {
     id,
     title,
     body,
-    img
+    image
 }}){
     return(
         /* the layout prop here allows us to set row reverse for our flex-direction in our styled
@@ -17,7 +17,7 @@ export default function Card({item: {
                 <p>{body}</p>
             </div>
             <div>
-                <img src={`./images/${img}`} alt='NO CONTENT' />
+                <img src={`./images/${image}`} alt='NO CONTENT' />
             </div>
         </StyledCard>
     )
