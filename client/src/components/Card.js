@@ -17,7 +17,7 @@ export default function Card({item: {
                 <p>{body}</p>
             </div>
             <div>
-                <img src={`./images/${image}`} alt='NO CONTENT' />
+                <img src={`./images/${image}`} alt='NO CONTENT'/>
             </div>
         </StyledCard>
     )

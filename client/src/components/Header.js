@@ -11,7 +11,7 @@ export default function Header(){
         <StyledHeader>
         <AboutContainer>
             <Nav>
-                <Logo src='./images/logo.svg' alt='NO LOGO'/>
+            <Logo src='./images/fullstack.png' alt='NO LOGO' height='50'/>
                 <Button>Login</Button>
             </Nav>
             <Flex>
