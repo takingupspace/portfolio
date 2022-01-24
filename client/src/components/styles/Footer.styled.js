@@ -27,4 +27,8 @@ export const StyledFooter = styled.footer`
             text-align: center;
         }
     }
+
+    &:hover{
+        background-color : ${({theme}) => theme.colors.body};
+    }
 `

@@ -5,7 +5,7 @@ import SocialIcons from "./SocialIcons";
 
 export default function Footer(){
     return(
-        <StyledFooter>
+        <StyledFooter id='idForTheFooter'>
             <AboutContainer>
                 <img src="./images/mern.jpg" alt="NO CONTENT" height='50'/>
                 <Flex>

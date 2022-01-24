@@ -11,13 +11,13 @@ export default function Card({item: {
         so either id is not even and we default to the value in our or within our styled card
         or the row is even and layout is equal to row-reverse
         */
-        <StyledCard layout={id % 2 === 0 && 'row-reverse'} id={id === 2 && 'styledcard2' || "false"}>
+        <StyledCard layout={id % 2 === 0 && 'row-reverse'} id={id === 3 && 'styledcard3' || 'false'}>
             <div>
                 <h2>{title}</h2>
                 <p>{body}</p>
             </div>
             <div>
-                <img src={`./images/${image}`} alt='NO CONTENT'/>
+                <a href={ id === 3 && 'http://birdsuphotels.com' || 'false'} ><img src={`./images/${image}`} alt='' /></a>
             </div>
         </StyledCard>
     )
