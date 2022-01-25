@@ -18,6 +18,7 @@ export default function Card({item: {
             </div>
             <div>
                 <a href={ id === 3 && 'http://birdsuphotels.com' || 'false'} ><img src={`./images/${image}`} alt='' /></a>
+                <ul>Programming Languages / Frameworks</ul>
             </div>
         </StyledCard>
     )
